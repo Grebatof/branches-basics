@@ -12,6 +12,8 @@ int main()
     printf("%d ", array[i]);
   }
 
+  printf("size of array = %d\n", n);
+
 
   return 0;
 }
