@@ -2,10 +2,14 @@
 
 int main()
 {
-  int arr[10] = {1, 2, 3};
+  int n;
+  scanf("%d", &n);
 
-  for(int i = 0; i < 10; i++) {
-    printf("%d ", arr[i]);
+  int array[n];
+
+  for(int i = 0; i < n; i++) {
+    array[i] = i + 1;
+    printf("%d ", array[i]);
   }
 
 
