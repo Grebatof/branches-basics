@@ -2,12 +2,16 @@
 
 int main()
 {
-  int arr[10] = {1, 2, 3};
+  int arr[5];
 
-  for(int i = 0; i < 10; i++) {
+  for (int j = 0; j < 5; j++) {
+    scanf("%d", &arr[j]);
+  }
+  printf("\n");
+  for (int i = 0; i < 5; i++) {
     printf("%d ", arr[i]);
   }
-
+  printf("\n");
 
   return 0;
 }
