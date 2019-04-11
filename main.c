@@ -2,15 +2,21 @@
 
 int main()
 {
+
   int n;
   scanf("%d", &n);
 
   int array[n];
 
-  for(int i = 0; i < n; i++) {
-    array[i] = i + 1;
-    printf("%d ", array[i]);
+  for (int j = 0; j < n; j++) {
+    scanf("%d", &arr[j]);
   }
+  printf("\n");
+  for (int i = 0; i < n; i++) {
+    printf("%d ", arr[i]);
+
+  }
+
 
   printf("size of array = %d\n", n);
 
